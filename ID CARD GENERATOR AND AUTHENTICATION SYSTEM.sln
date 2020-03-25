@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID CARD GENERATOR AND AUTHENTICATION SYSTEM", "ID CARD GENERATOR AND AUTHENTICATION SYSTEM.csproj", "{E256DF70-FAD1-494E-BF3B-3B1B5848061D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E256DF70-FAD1-494E-BF3B-3B1B5848061D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E256DF70-FAD1-494E-BF3B-3B1B5848061D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E256DF70-FAD1-494E-BF3B-3B1B5848061D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E256DF70-FAD1-494E-BF3B-3B1B5848061D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E85EC578-0265-4992-9884-BB7798C4EC38}
+	EndGlobalSection
+EndGlobal
