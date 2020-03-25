@@ -129,10 +129,10 @@
     <Compile Include="GUI\User Control Pages\NewID.Designer.cs">
       <DependentUpon>NewID.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Forms\Search.cs">
+    <Compile Include="GUI\User Control Pages\Search.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GUI\Forms\Search.Designer.cs">
+    <Compile Include="GUI\User Control Pages\Search.Designer.cs">
       <DependentUpon>Search.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="GUI\Forms\Log.resx">
@@ -164,7 +164,7 @@
     <EmbeddedResource Include="GUI\User Control Pages\NewID.resx">
       <DependentUpon>NewID.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Forms\Search.resx">
+    <EmbeddedResource Include="GUI\User Control Pages\Search.resx">
       <DependentUpon>Search.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

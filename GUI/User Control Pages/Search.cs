@@ -74,9 +74,10 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
             /*Checking the data from table*/
 
             string sql = "select * from log where id like '" + this.textBox1.Text + "%';";
+            this.PopulateLogGridView(sql);
 
 
-            if(textBox1.Text.Contains("AB"))
+            if (textBox1.Text.Contains("AB"))
             {
                 
                 if(log.IsDisposed == true)
@@ -93,7 +94,7 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
                 MessageBox.Show("Please enter a valid ID");
             }
 
-            
+
 
 
         }
@@ -106,6 +107,23 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
             this.Da.ExecuteUpdateQuery(sql);
             MessageBox.Show(name + " has been Banned.");
             this.PopulateGridView();
+        }
+
+        private void materialRaisedButton1_Click_1(object sender, EventArgs e)
+        {
+
+            // Showing ALL Logs
+
+            if (log.IsDisposed == true)
+            {
+                log = new Log();
+            }
+
+            log.Show();
+
+            string sql = "select * from log;";
+
+            this.PopulateLogGridView(sql);
         }
     }
 }

@@ -42,10 +42,10 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.adminSettings1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.AdminSettings();
             this.search1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.Search();
             this.newID1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.NewID();
             this.about1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.About();
-            this.adminSettings1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.AdminSettings();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -230,6 +230,13 @@
             this.materialLabel1.TabIndex = 5;
             this.materialLabel1.Text = "Home / Dashboard";
             // 
+            // adminSettings1
+            // 
+            this.adminSettings1.Location = new System.Drawing.Point(230, 70);
+            this.adminSettings1.Name = "adminSettings1";
+            this.adminSettings1.Size = new System.Drawing.Size(831, 611);
+            this.adminSettings1.TabIndex = 9;
+            // 
             // search1
             // 
             this.search1.Location = new System.Drawing.Point(230, 71);
@@ -251,13 +258,6 @@
             this.about1.Name = "about1";
             this.about1.Size = new System.Drawing.Size(768, 610);
             this.about1.TabIndex = 8;
-            // 
-            // adminSettings1
-            // 
-            this.adminSettings1.Location = new System.Drawing.Point(230, 70);
-            this.adminSettings1.Name = "adminSettings1";
-            this.adminSettings1.Size = new System.Drawing.Size(831, 611);
-            this.adminSettings1.TabIndex = 9;
             // 
             // Dashboard
             // 

@@ -30,11 +30,6 @@
         {
             this.txtAutoSearch = new System.Windows.Forms.TextBox();
             this.dgvMain = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btnDelete = new MaterialSkin.Controls.MaterialRaisedButton();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastname = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,6 +38,12 @@
             this.gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bg = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contact = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.btnDelete = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,67 +77,6 @@
             this.dgvMain.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMain.Size = new System.Drawing.Size(807, 320);
             this.dgvMain.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(160, 46);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(228, 30);
-            this.textBox1.TabIndex = 10;
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel1.Location = new System.Drawing.Point(12, 46);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(90, 19);
-            this.materialLabel1.TabIndex = 11;
-            this.materialLabel1.Text = "LOG CHECK";
-            // 
-            // materialLabel2
-            // 
-            this.materialLabel2.AutoSize = true;
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(297, 173);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(226, 19);
-            this.materialLabel2.TabIndex = 12;
-            this.materialLabel2.Text = "Enter ID/Contact for information";
-            // 
-            // materialRaisedButton2
-            // 
-            this.materialRaisedButton2.Depth = 0;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(418, 46);
-            this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton2.Name = "materialRaisedButton2";
-            this.materialRaisedButton2.Primary = true;
-            this.materialRaisedButton2.Size = new System.Drawing.Size(75, 31);
-            this.materialRaisedButton2.TabIndex = 9;
-            this.materialRaisedButton2.Text = "Search";
-            this.materialRaisedButton2.UseVisualStyleBackColor = true;
-            this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Depth = 0;
-            this.btnDelete.Location = new System.Drawing.Point(660, 211);
-            this.btnDelete.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Primary = true;
-            this.btnDelete.Size = new System.Drawing.Size(75, 46);
-            this.btnDelete.TabIndex = 13;
-            this.btnDelete.Text = "BAN";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // id
             // 
@@ -200,10 +140,85 @@
             this.contact.Name = "contact";
             this.contact.ReadOnly = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(160, 46);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(228, 30);
+            this.textBox1.TabIndex = 10;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel1.Location = new System.Drawing.Point(12, 46);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(90, 19);
+            this.materialLabel1.TabIndex = 11;
+            this.materialLabel1.Text = "LOG CHECK";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(285, 173);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(226, 19);
+            this.materialLabel2.TabIndex = 12;
+            this.materialLabel2.Text = "Enter ID/Contact for information";
+            // 
+            // materialRaisedButton2
+            // 
+            this.materialRaisedButton2.Depth = 0;
+            this.materialRaisedButton2.Location = new System.Drawing.Point(418, 46);
+            this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton2.Name = "materialRaisedButton2";
+            this.materialRaisedButton2.Primary = true;
+            this.materialRaisedButton2.Size = new System.Drawing.Size(75, 31);
+            this.materialRaisedButton2.TabIndex = 9;
+            this.materialRaisedButton2.Text = "Search";
+            this.materialRaisedButton2.UseVisualStyleBackColor = true;
+            this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Depth = 0;
+            this.btnDelete.Location = new System.Drawing.Point(660, 211);
+            this.btnDelete.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Primary = true;
+            this.btnDelete.Size = new System.Drawing.Size(75, 46);
+            this.btnDelete.TabIndex = 13;
+            this.btnDelete.Text = "BAN";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // materialRaisedButton1
+            // 
+            this.materialRaisedButton1.Depth = 0;
+            this.materialRaisedButton1.Location = new System.Drawing.Point(529, 46);
+            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton1.Name = "materialRaisedButton1";
+            this.materialRaisedButton1.Primary = true;
+            this.materialRaisedButton1.Size = new System.Drawing.Size(114, 31);
+            this.materialRaisedButton1.TabIndex = 14;
+            this.materialRaisedButton1.Text = "Search ALL";
+            this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click_1);
+            // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
@@ -235,5 +250,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn gender;
         private System.Windows.Forms.DataGridViewTextBoxColumn bg;
         private System.Windows.Forms.DataGridViewTextBoxColumn contact;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
     }
 }

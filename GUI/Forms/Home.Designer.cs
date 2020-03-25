@@ -36,17 +36,20 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnLogin = new MaterialSkin.Controls.MaterialFlatButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.status = new MaterialSkin.Controls.MaterialLabel();
             this.txtQRCode = new MaterialSkin.Controls.MaterialLabel();
             this.lastName = new MaterialSkin.Controls.MaterialLabel();
             this.firstName = new MaterialSkin.Controls.MaterialLabel();
-            this.status = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // cboDevice
             // 
+            this.cboDevice.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cboDevice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDevice.FormattingEnabled = true;
             this.cboDevice.Location = new System.Drawing.Point(103, 116);
@@ -56,6 +59,9 @@
             // 
             // materialLabel1
             // 
+            this.materialLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
@@ -95,6 +101,9 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLogin.AutoSize = true;
             this.btnLogin.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnLogin.Depth = 0;
@@ -116,17 +125,44 @@
             this.panel1.Controls.Add(this.txtQRCode);
             this.panel1.Controls.Add(this.lastName);
             this.panel1.Controls.Add(this.firstName);
-            this.panel1.Location = new System.Drawing.Point(359, 259);
+            this.panel1.Location = new System.Drawing.Point(343, 259);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(224, 227);
+            this.panel1.Size = new System.Drawing.Size(283, 227);
             this.panel1.TabIndex = 6;
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel2.Location = new System.Drawing.Point(9, 176);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(68, 25);
+            this.materialLabel2.TabIndex = 15;
+            this.materialLabel2.Text = "Status";
+            // 
+            // status
+            // 
+            this.status.AutoSize = true;
+            this.status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.status.Depth = 0;
+            this.status.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.status.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.status.Location = new System.Drawing.Point(80, 176);
+            this.status.MouseState = MaterialSkin.MouseState.HOVER;
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(108, 27);
+            this.status.TabIndex = 14;
+            this.status.Text = "Awaiting...";
+            this.status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtQRCode
             // 
             this.txtQRCode.Depth = 0;
-            this.txtQRCode.Font = new System.Drawing.Font("Roboto", 11F);
+            this.txtQRCode.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQRCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtQRCode.Location = new System.Drawing.Point(15, 105);
+            this.txtQRCode.Location = new System.Drawing.Point(18, 105);
             this.txtQRCode.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtQRCode.Name = "txtQRCode";
             this.txtQRCode.Size = new System.Drawing.Size(155, 19);
@@ -136,9 +172,9 @@
             // lastName
             // 
             this.lastName.Depth = 0;
-            this.lastName.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lastName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lastName.Location = new System.Drawing.Point(15, 59);
+            this.lastName.Location = new System.Drawing.Point(18, 59);
             this.lastName.MouseState = MaterialSkin.MouseState.HOVER;
             this.lastName.Name = "lastName";
             this.lastName.Size = new System.Drawing.Size(183, 19);
@@ -148,9 +184,9 @@
             // firstName
             // 
             this.firstName.Depth = 0;
-            this.firstName.Font = new System.Drawing.Font("Roboto", 11F);
+            this.firstName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.firstName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.firstName.Location = new System.Drawing.Point(15, 25);
+            this.firstName.Location = new System.Drawing.Point(18, 25);
             this.firstName.MouseState = MaterialSkin.MouseState.HOVER;
             this.firstName.Name = "firstName";
             this.firstName.Size = new System.Drawing.Size(131, 19);
@@ -158,37 +194,11 @@
             this.firstName.Tag = "First Name";
             this.firstName.Click += new System.EventHandler(this.firstName_Click);
             // 
-            // status
-            // 
-            this.status.AutoSize = true;
-            this.status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.status.Depth = 0;
-            this.status.Font = new System.Drawing.Font("Roboto", 11F);
-            this.status.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.status.Location = new System.Drawing.Point(90, 180);
-            this.status.MouseState = MaterialSkin.MouseState.HOVER;
-            this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(81, 21);
-            this.status.TabIndex = 14;
-            this.status.Text = "Awaiting...";
-            // 
-            // materialLabel2
-            // 
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel2.Location = new System.Drawing.Point(15, 180);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(61, 25);
-            this.materialLabel2.TabIndex = 15;
-            this.materialLabel2.Text = "Status";
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 577);
+            this.ClientSize = new System.Drawing.Size(638, 577);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnStart);

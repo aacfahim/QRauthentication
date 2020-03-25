@@ -146,7 +146,7 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
                 if (dt.Rows[0][0].ToString() == "1") 
                 {
                     status.BackColor = Color.Green;
-                    status.Text = "VALID";
+                    status.Text = "REGISTRATION FOUND";
                     DataFetch();
                     Log();
 

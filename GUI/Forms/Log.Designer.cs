@@ -81,6 +81,7 @@
             this.ClientSize = new System.Drawing.Size(622, 562);
             this.Controls.Add(this.LogdataGridView);
             this.Name = "Log";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Log_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.LogdataGridView)).EndInit();
