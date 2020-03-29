@@ -56,6 +56,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.pictureBox1);
@@ -79,9 +81,9 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(54, 357);
+            this.button5.Location = new System.Drawing.Point(59, 357);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(143, 34);
+            this.button5.Size = new System.Drawing.Size(136, 34);
             this.button5.TabIndex = 17;
             this.button5.Text = "Settings";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -105,9 +107,9 @@
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(54, 458);
+            this.btnLogout.Location = new System.Drawing.Point(59, 458);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(143, 34);
+            this.btnLogout.Size = new System.Drawing.Size(136, 34);
             this.btnLogout.TabIndex = 15;
             this.btnLogout.Text = "Log Out";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -120,9 +122,9 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(57, 248);
+            this.button4.Location = new System.Drawing.Point(59, 248);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(127, 34);
+            this.button4.Size = new System.Drawing.Size(136, 34);
             this.button4.TabIndex = 14;
             this.button4.Text = "&About";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -135,9 +137,9 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(57, 148);
+            this.button3.Location = new System.Drawing.Point(59, 148);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(127, 34);
+            this.button3.Size = new System.Drawing.Size(136, 34);
             this.button3.TabIndex = 13;
             this.button3.Text = "Search";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -163,7 +165,7 @@
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.InitialImage")));
-            this.pictureBox5.Location = new System.Drawing.Point(13, 44);
+            this.pictureBox5.Location = new System.Drawing.Point(11, 44);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(40, 40);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -185,7 +187,7 @@
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.InitialImage")));
-            this.pictureBox6.Location = new System.Drawing.Point(14, 242);
+            this.pictureBox6.Location = new System.Drawing.Point(11, 242);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(40, 40);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -196,7 +198,7 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.InitialImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(14, 142);
+            this.pictureBox4.Location = new System.Drawing.Point(11, 142);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(40, 40);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -232,6 +234,9 @@
             // 
             // adminSettings1
             // 
+            this.adminSettings1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.adminSettings1.Location = new System.Drawing.Point(230, 70);
             this.adminSettings1.Name = "adminSettings1";
             this.adminSettings1.Size = new System.Drawing.Size(831, 611);
@@ -239,6 +244,9 @@
             // 
             // search1
             // 
+            this.search1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.search1.Location = new System.Drawing.Point(230, 71);
             this.search1.Name = "search1";
             this.search1.Size = new System.Drawing.Size(860, 610);
@@ -247,6 +255,9 @@
             // 
             // newID1
             // 
+            this.newID1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.newID1.Location = new System.Drawing.Point(257, 71);
             this.newID1.Name = "newID1";
             this.newID1.Size = new System.Drawing.Size(758, 561);
@@ -254,6 +265,9 @@
             // 
             // about1
             // 
+            this.about1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.about1.Location = new System.Drawing.Point(247, 71);
             this.about1.Name = "about1";
             this.about1.Size = new System.Drawing.Size(768, 610);
@@ -264,13 +278,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 693);
-            this.Controls.Add(this.adminSettings1);
             this.Controls.Add(this.search1);
             this.Controls.Add(this.newID1);
             this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.about1);
+            this.Controls.Add(this.adminSettings1);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

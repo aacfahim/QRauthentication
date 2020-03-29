@@ -71,11 +71,12 @@
             this.gender,
             this.bg,
             this.contact});
-            this.dgvMain.Location = new System.Drawing.Point(17, 295);
+            this.dgvMain.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgvMain.Location = new System.Drawing.Point(0, 298);
             this.dgvMain.Name = "dgvMain";
             this.dgvMain.ReadOnly = true;
             this.dgvMain.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMain.Size = new System.Drawing.Size(807, 320);
+            this.dgvMain.Size = new System.Drawing.Size(833, 320);
             this.dgvMain.TabIndex = 8;
             // 
             // id
@@ -143,7 +144,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(160, 46);
+            this.textBox1.Location = new System.Drawing.Point(160, 40);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(228, 30);
@@ -178,7 +179,7 @@
             // materialRaisedButton2
             // 
             this.materialRaisedButton2.Depth = 0;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(418, 46);
+            this.materialRaisedButton2.Location = new System.Drawing.Point(418, 40);
             this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton2.Name = "materialRaisedButton2";
             this.materialRaisedButton2.Primary = true;
@@ -204,7 +205,7 @@
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(529, 46);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(529, 40);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
