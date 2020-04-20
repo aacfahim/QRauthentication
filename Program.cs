@@ -16,7 +16,7 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dashboard());
+            Application.Run(new Home());
         }
     }
 }
