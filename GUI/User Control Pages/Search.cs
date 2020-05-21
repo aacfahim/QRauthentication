@@ -50,6 +50,8 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
 
             this.Ds = this.Da.ExecuteQuery(sql);
             this.dgvMain.DataSource = this.Ds.Tables[0];
+
+
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
@@ -124,6 +126,16 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
             string sql = "select * from log;";
 
             this.PopulateLogGridView(sql);
+        }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PopulateGridView();
         }
     }
 }

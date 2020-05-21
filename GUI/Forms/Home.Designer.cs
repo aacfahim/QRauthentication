@@ -78,6 +78,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(36, 176);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(301, 374);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -133,7 +134,7 @@
             // materialLabel2
             // 
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel2.Location = new System.Drawing.Point(9, 176);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
@@ -147,12 +148,12 @@
             this.status.AutoSize = true;
             this.status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.status.Depth = 0;
-            this.status.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.status.Font = new System.Drawing.Font("Roboto", 11F);
             this.status.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.status.Location = new System.Drawing.Point(80, 176);
             this.status.MouseState = MaterialSkin.MouseState.HOVER;
             this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(108, 27);
+            this.status.Size = new System.Drawing.Size(81, 21);
             this.status.TabIndex = 14;
             this.status.Text = "Awaiting...";
             this.status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -160,7 +161,7 @@
             // txtQRCode
             // 
             this.txtQRCode.Depth = 0;
-            this.txtQRCode.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQRCode.Font = new System.Drawing.Font("Roboto", 11F);
             this.txtQRCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtQRCode.Location = new System.Drawing.Point(18, 105);
             this.txtQRCode.MouseState = MaterialSkin.MouseState.HOVER;
@@ -172,7 +173,7 @@
             // lastName
             // 
             this.lastName.Depth = 0;
-            this.lastName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastName.Font = new System.Drawing.Font("Roboto", 11F);
             this.lastName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lastName.Location = new System.Drawing.Point(18, 59);
             this.lastName.MouseState = MaterialSkin.MouseState.HOVER;
@@ -184,7 +185,7 @@
             // firstName
             // 
             this.firstName.Depth = 0;
-            this.firstName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstName.Font = new System.Drawing.Font("Roboto", 11F);
             this.firstName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.firstName.Location = new System.Drawing.Point(18, 25);
             this.firstName.MouseState = MaterialSkin.MouseState.HOVER;
@@ -205,6 +206,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.cboDevice);
+            this.MaximizeBox = false;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";

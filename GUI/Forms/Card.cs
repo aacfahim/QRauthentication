@@ -41,15 +41,15 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
         }
 
 
-
-
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
+
 
             Panel panel = new Panel();
             this.Controls.Add(panel);
             Graphics grp = panel.CreateGraphics();
             Size formSize = this.ClientSize;
+
             bitmap = new Bitmap(formSize.Width, formSize.Height, grp);
             grp = Graphics.FromImage(bitmap);
             Point panelLocation = PointToScreen(panel.Location);
@@ -109,6 +109,11 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

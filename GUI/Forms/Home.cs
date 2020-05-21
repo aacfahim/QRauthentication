@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,18 +41,23 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
 
         private void Home_Load(object sender, EventArgs e)
         {
+
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             foreach (FilterInfo filterInfo in filterInfoCollection)
                 cboDevice.Items.Add(filterInfo.Name); // A list of available camera device connected with the computer
             cboDevice.SelectedIndex = 0;
+            captureDevice = new VideoCaptureDevice();
+
+
         }
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            captureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString); 
-            captureDevice.NewFrame += captureDevice_NewFrame;
-            captureDevice.Start();
-            timer1.Start(); // Starting the camera for scanning any QR (quick response) code.
+                captureDevice = new VideoCaptureDevice(filterInfoCollection[cboDevice.SelectedIndex].MonikerString);
+                captureDevice.NewFrame += captureDevice_NewFrame;
+                captureDevice.Start();
+                timer1.Start(); // Starting the camera for scanning any QR (quick response) code.
+            
         }
 
         private void captureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)

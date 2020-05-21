@@ -74,7 +74,7 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
         private string AutoGenID()
         {
 
-            string ID = "AB-" + DateTime.Now.Day + "-" + DateTime.Now.Month + "-" + DateTime.Now.Year + "-" + id;
+            string ID = "AB-" + DateTime.Now.Day + "-" + DateTime.Now.Month + "-" + DateTime.Now.Year+ "-" + id;
             return ID;
         }
 
@@ -132,6 +132,8 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
                         MessageBox.Show("Registration Complete.");
 
                         DataPass();
+
+
                     }
                     
 
@@ -158,6 +160,8 @@ namespace ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM
                         MessageBox.Show("Registration Complete.");
 
                         DataPass();
+
+                       
                     }
 
 

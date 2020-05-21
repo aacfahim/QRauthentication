@@ -42,10 +42,10 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.adminSettings1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.AdminSettings();
             this.search1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.Search();
             this.newID1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.NewID();
             this.about1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.About();
+            this.adminSettings1 = new ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.AdminSettings();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -223,24 +223,14 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.BackColor = System.Drawing.Color.Transparent;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel1.Location = new System.Drawing.Point(866, 37);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(134, 18);
+            this.materialLabel1.Size = new System.Drawing.Size(136, 19);
             this.materialLabel1.TabIndex = 5;
             this.materialLabel1.Text = "Home / Dashboard";
-            // 
-            // adminSettings1
-            // 
-            this.adminSettings1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.adminSettings1.Location = new System.Drawing.Point(230, 70);
-            this.adminSettings1.Name = "adminSettings1";
-            this.adminSettings1.Size = new System.Drawing.Size(831, 611);
-            this.adminSettings1.TabIndex = 9;
             // 
             // search1
             // 
@@ -272,6 +262,16 @@
             this.about1.Name = "about1";
             this.about1.Size = new System.Drawing.Size(768, 610);
             this.about1.TabIndex = 8;
+            // 
+            // adminSettings1
+            // 
+            this.adminSettings1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.adminSettings1.Location = new System.Drawing.Point(230, 70);
+            this.adminSettings1.Name = "adminSettings1";
+            this.adminSettings1.Size = new System.Drawing.Size(831, 611);
+            this.adminSettings1.TabIndex = 9;
             // 
             // Dashboard
             // 

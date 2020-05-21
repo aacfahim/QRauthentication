@@ -198,5 +198,11 @@
   <ItemGroup>
     <Folder Include="Card Reports\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\16\refresh %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\16\refresh.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -44,6 +44,7 @@
             this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnDelete = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).BeginInit();
             this.SuspendLayout();
             // 
@@ -215,10 +216,22 @@
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
             this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click_1);
             // 
+            // button1
+            // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Image = global::ID_CARD_GENERATOR_AND_AUTHENTICATION_SYSTEM.Properties.Resources.refresh__1_;
+            this.button1.Location = new System.Drawing.Point(559, 211);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(42, 46);
+            this.button1.TabIndex = 15;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.materialLabel2);
@@ -229,6 +242,7 @@
             this.Controls.Add(this.txtAutoSearch);
             this.Name = "Search";
             this.Size = new System.Drawing.Size(833, 618);
+            this.Load += new System.EventHandler(this.Search_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -252,5 +266,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn bg;
         private System.Windows.Forms.DataGridViewTextBoxColumn contact;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
+        private System.Windows.Forms.Button button1;
     }
 }
